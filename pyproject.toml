@@ -9,7 +9,7 @@ description = "Alpine Linux (apk) package version validation, ordering and depen
 readme = "README.md"
 requires-python = ">=3.11"
 license = {text = "MIT"}
-authors = [{name = "__AUTHOR__"}]
+authors = [{name = "kofiadeyemiq"}]
 keywords = ["alpine", "apk", "version", "compare", "semver"]
 classifiers = [
     "License :: OSI Approved :: MIT License",
@@ -22,7 +22,7 @@ dependencies = []
 dev = ["pytest>=8", "mypy>=1.10"]
 
 [project.urls]
-Repository = "https://github.com/__GH_OWNER__/apkversion"
+Repository = "https://github.com/quietpelican42/apkversion"
 
 [tool.setuptools.packages.find]
 where = ["src"]
